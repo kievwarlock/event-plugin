@@ -1,0 +1,35 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.eventCalendar-list-wrap {
+    display: none;
+}
+
+.dialog-event-item-title {font-size: 14px;text-transform: uppercase;font-weight: bold;}
+.dialog-event-item-date {font-size: 10px;text-transform: uppercase;font-weight: bold;color: #fff;background: #444;display: inline-block;padding: 3px 10px;margin: 0px 0px;line-height: 1;}
+.dialog-event-item-adress {font-size: 11px;text-transform: uppercase;font-weight: bold;font-style: italic;}
+.dialog-event-item-description {
+    font-size: 13px;
+    text-align: center;
+    box-shadow: 0px 0px 2px 0px #888;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 10px 0px;
+}
+
+.dialog-event-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 2px 2px 8px 1px #ccc;
+}
+.MySuperCalendar-plugin-loader {
+    display: block;
+    margin: 10px auto;
+}
+.eventCalendar-wrap {
+    padding-bottom: 10px;
+}
